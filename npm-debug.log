@@ -1,0 +1,141 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\New Instals\\x64\\nodejs\\\\node.exe',
+1 verbose cli   'D:\\New Instals\\x64\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   '#',
+1 verbose cli   'Install',
+1 verbose cli   'globally' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of C:\Users\dahal\AppData\Roaming\npm\package.json
+5 verbose readDependencies loading dependencies from C:\Users\dahal\AppData\Roaming\npm\package.json
+6 silly cache add args [ '#', null ]
+7 verbose cache add spec #
+8 silly cache add args [ 'Install', null ]
+9 verbose cache add spec Install
+10 silly cache add args [ 'globally', null ]
+11 verbose cache add spec globally
+12 silly cache add parsed spec { raw: '#',
+12 silly cache add   scope: null,
+12 silly cache add   name: null,
+12 silly cache add   rawSpec: '#',
+12 silly cache add   spec: 'D:\\New Instals\\Projects\\Web Development\\1\\#',
+12 silly cache add   type: 'local' }
+13 silly cache add parsed spec { raw: 'Install',
+13 silly cache add   scope: null,
+13 silly cache add   name: 'Install',
+13 silly cache add   rawSpec: '',
+13 silly cache add   spec: '*',
+13 silly cache add   type: 'range' }
+14 silly addNamed Install@*
+15 verbose addNamed "*" is a valid semver range for Install
+16 silly addNameRange { name: 'Install', range: '*', hasData: false }
+17 silly mapToRegistry name Install
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npmjs.org/
+20 silly mapToRegistry uri https://registry.npmjs.org/Install
+21 verbose addNameRange registry:https://registry.npmjs.org/Install not in flight; fetching
+22 silly cache add parsed spec { raw: 'globally',
+22 silly cache add   scope: null,
+22 silly cache add   name: 'globally',
+22 silly cache add   rawSpec: '',
+22 silly cache add   spec: '*',
+22 silly cache add   type: 'range' }
+23 silly addNamed globally@*
+24 verbose addNamed "*" is a valid semver range for globally
+25 silly addNameRange { name: 'globally', range: '*', hasData: false }
+26 silly mapToRegistry name globally
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry uri https://registry.npmjs.org/globally
+30 verbose addNameRange registry:https://registry.npmjs.org/globally not in flight; fetching
+31 error addLocal Could not install D:\New Instals\Projects\Web Development\1\#
+32 verbose request uri https://registry.npmjs.org/Install
+33 verbose request no auth needed
+34 info attempt registry request try #1 at 9:18:29 AM
+35 verbose request id 3e0b19de39252167
+36 http request GET https://registry.npmjs.org/Install
+37 verbose request uri https://registry.npmjs.org/globally
+38 verbose request no auth needed
+39 info attempt registry request try #1 at 9:18:29 AM
+40 http request GET https://registry.npmjs.org/globally
+41 http 404 https://registry.npmjs.org/Install
+42 verbose headers { 'cache-control': 'max-age=0',
+42 verbose headers   'transfer-encoding': 'chunked',
+42 verbose headers   'accept-ranges': 'bytes',
+42 verbose headers   date: 'Wed, 12 Aug 2015 13:18:22 GMT',
+42 verbose headers   via: '1.1 varnish',
+42 verbose headers   age: '0',
+42 verbose headers   connection: 'keep-alive',
+42 verbose headers   'x-served-by': 'cache-jfk1034-JFK',
+42 verbose headers   'x-cache': 'MISS',
+42 verbose headers   'x-cache-hits': '0',
+42 verbose headers   'x-timer': 'S1439385502.811807,VS0,VE24' }
+43 silly get cb [ 404,
+43 silly get   { 'cache-control': 'max-age=0',
+43 silly get     'transfer-encoding': 'chunked',
+43 silly get     'accept-ranges': 'bytes',
+43 silly get     date: 'Wed, 12 Aug 2015 13:18:22 GMT',
+43 silly get     via: '1.1 varnish',
+43 silly get     age: '0',
+43 silly get     connection: 'keep-alive',
+43 silly get     'x-served-by': 'cache-jfk1034-JFK',
+43 silly get     'x-cache': 'MISS',
+43 silly get     'x-cache-hits': '0',
+43 silly get     'x-timer': 'S1439385502.811807,VS0,VE24' } ]
+44 http 200 https://registry.npmjs.org/globally
+45 silly get cb [ 200,
+45 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+45 silly get     etag: '"BPMIB01G9PO9EVPKOP9B3WWZF"',
+45 silly get     'content-type': 'application/json',
+45 silly get     'cache-control': 'max-age=60',
+45 silly get     'content-length': '1017',
+45 silly get     'accept-ranges': 'bytes',
+45 silly get     date: 'Wed, 12 Aug 2015 13:18:22 GMT',
+45 silly get     via: '1.1 varnish',
+45 silly get     age: '0',
+45 silly get     connection: 'keep-alive',
+45 silly get     'x-served-by': 'cache-jfk1035-JFK',
+45 silly get     'x-cache': 'MISS',
+45 silly get     'x-cache-hits': '0',
+45 silly get     'x-timer': 'S1439385502.817587,VS0,VE29',
+45 silly get     vary: 'Accept' } ]
+46 verbose get saving globally to C:\Users\dahal\AppData\Roaming\npm-cache\registry.npmjs.org\globally\.cache.json
+47 verbose getCacheStat cache creation not in flight; initializing
+48 verbose makeCacheDir UID & GID are irrelevant on win32
+49 silly addNameRange number 2 { name: 'globally', range: '*', hasData: true }
+50 silly addNameRange versions [ 'globally', [ '0.0.0' ] ]
+51 silly addNamed globally@0.0.0
+52 verbose addNamed "0.0.0" is a plain semver version for globally
+53 silly mapToRegistry name globally
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry uri https://registry.npmjs.org/globally
+57 verbose addRemoteTarball https://registry.npmjs.org/globally/-/globally-0.0.0.tgz not in flight; adding
+58 verbose addRemoteTarball [ 'https://registry.npmjs.org/globally/-/globally-0.0.0.tgz',
+58 verbose addRemoteTarball   '410d2a5e39050759e60e3f4d262ca16cdd714a4e' ]
+59 info retry fetch attempt 1 at 9:18:29 AM
+60 info attempt registry request try #1 at 9:18:29 AM
+61 http fetch GET https://registry.npmjs.org/globally/-/globally-0.0.0.tgz
+62 http fetch 200 https://registry.npmjs.org/globally/-/globally-0.0.0.tgz
+63 silly fetchAndShaCheck shasum 410d2a5e39050759e60e3f4d262ca16cdd714a4e
+64 verbose addTmpTarball C:\Users\dahal\AppData\Local\Temp\npm-8156-173568a0\registry.npmjs.org\globally\-\globally-0.0.0.tgz not in flight; adding
+65 verbose addTmpTarball already have metadata; skipping unpack for globally@0.0.0
+66 silly cache afterAdd globally@0.0.0
+67 verbose afterAdd C:\Users\dahal\AppData\Roaming\npm-cache\globally\0.0.0\package\package.json not in flight; writing
+68 verbose afterAdd C:\Users\dahal\AppData\Roaming\npm-cache\globally\0.0.0\package\package.json written
+69 verbose stack Error: ENOENT, open 'D:\New Instals\Projects\Web Development\1\#'
+69 verbose stack     at Error (native)
+70 verbose cwd D:\New Instals\Projects\Web Development\1
+71 error Windows_NT 6.3.9600
+72 error argv "D:\\New Instals\\x64\\nodejs\\\\node.exe" "D:\\New Instals\\x64\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "#" "Install" "globally"
+73 error node v0.12.7
+74 error npm  v2.11.3
+75 error path D:\New Instals\Projects\Web Development\1\#
+76 error code ENOENT
+77 error errno -4058
+78 error enoent ENOENT, open 'D:\New Instals\Projects\Web Development\1\#'
+78 error enoent This is most likely not a problem with npm itself
+78 error enoent and is related to npm not being able to find a file.
+79 verbose exit [ -4058, true ]
