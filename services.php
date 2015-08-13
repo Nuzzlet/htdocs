@@ -7,15 +7,15 @@
 
   </head>
   <body>
+      <div class="panel panel-info">
+        <div class="panel-heading">
+          <h3 class="panel-title">What we do</h3>
+        </div>
+        <div class="panel-body">
+          <p style="color:black;">paste text here</p>
+        </div>
+      </div>
 
-    <div class="panel panel-info">
-      <div class="panel-heading">
-        <h3 class="panel-title">Who he is</h3>
-      </div>
-      <div class="panel-body">
-        <p style="color:black;">paste text here Hello there</p>
-      </div>
-      </div>
     <footer>
     <?php include('footer.php');?>
     </footer>

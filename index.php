@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-<div class="container-fluid">
 <?php include('head.php');?>
+<div class="container-fluid">
 <?php include('nav.php');?>
-
   </head>
+
   <body>
 
-    <div class="jumbotron">
-      <h1>Welcome</h1>
-      <p>Welcome to my website</p>
-      <p><a class="btn btn-primary btn-lg" href="about.php" role="button">Learn more</a></p>
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          <div class="inner cover">
+            <h1 class="cover-heading">Welcome</h1>
+            <p class="lead">Welcome to [Domain Name], [Moto]</p>
+            <p class="lead">
+              <a href="services" class="btn btn-lg btn-default">Get Started</a>
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-
+  </div>
     <footer>
     <?php include('footer.php');?>
     </footer>
-    </div><!--/.container-fluid -->
   </body>
 </html>

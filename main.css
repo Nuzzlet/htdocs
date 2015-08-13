@@ -1,9 +1,8 @@
 body {
-	background:white;
+	background:#808080;
 }
 .jumbotron {
-	background:#999;
-	border-color:black;
+	background:#d9edf7;
 	border-style:solid;
 }
 .pannel-body {
@@ -27,4 +26,7 @@ text-align : center;
 color: #efefef;
 padding: 1% 0;
 text-shadow: 1px 1px 0px #202020
+}
+h4 {
+	color:#808080;
 }
