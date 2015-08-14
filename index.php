@@ -13,7 +13,7 @@
         <div class="cover-container">
           <div class="inner cover">
             <h1 class="cover-heading">Welcome</h1>
-            <p class="lead">Welcome to [Domain Name], [Moto]</p>
+            <p class="lead">Welcome to [Domain Name], [Motto]</p>
             <p class="lead">
               <a href="services" class="btn btn-lg btn-default">Get Started</a>
             </p>

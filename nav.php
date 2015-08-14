@@ -7,7 +7,9 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Rachel's Site</a>
+            <a background=class="navbar-brand" href="#">
+              <img src="http://www.imotorsnh.com/wp-content/uploads/2014/10/independent-motors-nh-logo.png" alt="Logo" height="50"/>
+            </a>
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
